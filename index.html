@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portofolio | Achmad Rizky</title>
+
+    <!--Icon Title Webiste-->
+    <link rel="icon" href="img/icontitleweb/img-icontitle.jpg" type="image/x-icon" />
+
+    <!--Web : https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
+    <!--Bootstrap 5.3 - CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!--Bootstrap 5.3 - Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+    <!--Web : AOS Animate On Scroll Library https://michalsnik.github.io/aos/ -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Style.CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="home">
+    <!--Navigasi Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
+      <div class="container fw-bold">
+        <a class="navbar-brand"><i class="bi bi-house-door"></i> MY PORTOFOLIO </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home"><i class="bi bi-file-person-fill"></i> HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="bi bi-chat-square-text"></i> ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><i class="bi bi-box-seam"></i> PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery"><i class="bi bi-image"></i> GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#educationEvent"><i class="bi bi-mortarboard"></i> EDUCATION & EVENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="bi bi-phone"></i> CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Jumbotron [ Profile ]-->
+    <section class="jumbotron text-center">
+      <img src="img/jumbotron/img-thumbnail.jpeg" alt="img-thumbnail" width="200" class="rounded-circle img-thumbnail mb-3" />
+      <h1 class="display-4 fw-bold fs-2 text-white">ACHMAD RIZKY</h1>
+      <p class="lead text-white fst-italic fw-semibold text-opacity-75"><i class="bi bi-book"></i> Collage Student || <i class="bi bi-terminal"></i> Programmer</p>
+
+      <!-- Web : https://getwaves.io (tampilan gelombang)-->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#3d3d3d"
+          fill-opacity="1"
+          d="M0,224L30,234.7C60,245,120,267,180,245.3C240,224,300,160,360,160C420,160,480,224,540,229.3C600,235,660,181,720,176C780,171,840,213,900,224C960,235,1020,213,1080,192C1140,171,1200,149,1260,160C1320,171,1380,213,1410,234.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--About-->
+    <section id="about">
+      <div class="container text-white">
+        <div class="row text-start" data-aos="zoom-out-down">
+          <div class="col mb-5">
+            <h2 class="fw-bold"><i class="bi bi-chat-square-text"></i> ABOUT ME</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center fs-5">
+          <div class="col-md-6" data-aos="zoom-out-down">
+            <p>
+              Hii.. let's me allow to introduce my self. My name is Achmad Rizky and now I'm a Collage Student in Gunadarma University and is currently completing a bachelor of informatics engineering. I am also a programmer working in the
+              field of web development. I have some pretty fun hobbies, one of which is badminton.
+            </p>
+          </div>
+          <div class="col-md-6" data-aos="zoom-out-down">
+            <p>
+              The projects that I have made include E-Commerce website that were made using the Go language as routing and various other configurations. Besides that, I also made this web portfolio using HTML, Bootstrap, and CSS. and I have
+              some of the best photos in my gallery that I can show in this portfolio.
+            </p>
+          </div>
+          <div class="col-md-6 mt-3 pt-5" data-aos="zoom-out-down">
+            <p>Lastly, I hope you are willing to cooperate with us so that you get a satisfactory goal of service for the agreement that has occurred. Thank You.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#3d3d3d"
+          fill-opacity="1"
+          d="M0,32L48,37.3C96,43,192,53,288,69.3C384,85,480,107,576,144C672,181,768,235,864,234.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--Projects-->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-end mb-5" data-aos="fade-down" data-aos-duration="750">
+          <div class="col">
+            <h2 class="fw-bold text-white"><i class="bi bi-box-seam"></i> MY PROJECTS</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card">
+              <img src="img/projects/img-project1.jpeg" class="card-img-top" alt="projects" />
+              <div class="card-body">
+                <p class="card-text fw-semibold">PROJECT TOKO-ONLINE</p>
+                <a href="#" class="btn btn-primary"><i class="bi bi-box-arrow-in-up-right"></i> View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-duration="1000">
+            <div class="card">
+              <img src="img/projects/img-project2.png" class="img-project2" alt="projects" />
+              <div class="card-body">
+                <p class="card-text fw-semibold">PROJECT GAME-SEDERHANA</p>
+                <a href="#" class="btn btn-primary"><i class="bi bi-box-arrow-in-up-right"></i> View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="card">
+              <img src="img/projects/img-project3.jpg" class="img-project3" alt="projects" />
+              <div class="card-body">
+                <p class="card-text fw-semibold">PROJECT KARTU-UNDANGAN</p>
+                <a href="#" class="btn btn-primary"><i class="bi bi-box-arrow-in-up-right"></i> View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#3d3d3d"
+          fill-opacity="1"
+          d="M0,64L30,53.3C60,43,120,21,180,42.7C240,64,300,128,360,144C420,160,480,128,540,128C600,128,660,160,720,181.3C780,203,840,213,900,197.3C960,181,1020,139,1080,138.7C1140,139,1200,181,1260,170.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--Gallery-->
+    <section id="gallery">
+      <div class="container text-white">
+        <div class="row text-start mb-5">
+          <div class="col">
+            <h2 class="fw-bold" data-aos="zoom-in-right"><i class="bi bi-image"></i> GALLERY<i class="bi bi-mortarboard"></i></h2>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="col-md-4 mb-4">
+            <img src="img/gallery/img-gallery1.jpeg" class="img-fluid" alt="img-gallery1" />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/gallery/img-gallery2.jpeg" class="img-fluid" alt="img-gallery2" />
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/gallery/img-gallery3.jpeg" class="img-fluid" alt="img-gallery3" />
+          </div>
+          <div class="col-md-4 ">
+            <img src="img/gallery/img-gallery4.jpeg" class="img-fluid" alt="img-gallery4" />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#64636390"
+          fill-opacity="1"
+          d="M0,64L30,53.3C60,43,120,21,180,42.7C240,64,300,128,360,144C420,160,480,128,540,128C600,128,660,160,720,181.3C780,203,840,213,900,197.3C960,181,1020,139,1080,138.7C1140,139,1200,181,1260,170.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#64636390"
+          fill-opacity="1"
+          d="M0,192L48,165.3C96,139,192,85,288,80C384,75,480,117,576,144C672,171,768,181,864,170.7C960,160,1056,128,1152,122.7C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--Education & Event-->
+    <section id="educationEvent">
+      <div class="container text-white" data-aos="zoom-in">
+        <div class="row text-end mb-5">
+          <div class="col">
+            <h2 class="fw-bold"><i class="bi bi-mortarboard"></i> EDUCATION || <i class="bi bi-exclude"></i> EVENT</h2>
+          </div>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+               <p><i class="bi bi-mortarboard fs-4"></i> EDUCATION</p> 
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item fw-bold text-center fs-5"><i class="bi bi-mortarboard"></i> EDUCATION</li>
+                  <li class="list-group-item fw-bold">
+                    <p><i class="bi bi-mortarboard"></i> TK NUR ALIF, BEKASI [2007 - 2009]</p>
+                    <p><i class="bi bi-mortarboard"></i> SD KALIABANG TENGAH 3, BEKASI [2009 - 2015]</p>
+                    <p><i class="bi bi-mortarboard"></i> SMP TAMAN HARAPAN 1, BEKASI [2015 - 2018]</p>
+                    <p><i class="bi bi-mortarboard"></i> SMA TAMAN HARAPAN 1, BEKASI [2018 - 2021]</p>
+                    <p><i class="bi bi-mortarboard"></i> UNIVERSITAS GUNADARMA (S1 INFORMATIKA), BEKASI [2021 - Now]</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <p><i class="bi bi-exclude"></i> EVENTS</p>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item fw-bold text-center fs-5"><i class="bi bi-exclude"></i> EVENT</li>
+                  <li class="list-group-item fw-bold text-center"> KARANG TARUNA RT 003 & RW 029</li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEPANITIAAN & ORGANISASI</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEPANITIAAN - BENDAHARA (POR) RW 029 [2018] 
+                      <p class="fst-italic">- Melakukan management keuangan sepenuhnya untuk keseluruhan acara.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEPANITIAAN - KETUA PELAKSANA LAPANGAN (PENSI) RT 003 [2018] 
+                      <p class="fst-italic">- Melakukan managerial kondisi situasi lapangan kepada seluruh staff.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEPANITIAAN - STAFF PELAKSANA LAPANGAN (QURBAN) RW 029 [2020]
+                      <p class="fst-italic"> - Penimbang & pengantar daging hewan qurban kepada hamba Allah.</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEJUARAAN & PERLOMBAAN</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SD ANTAR RT (FUTSAL) RW 029 [2011 & 2014] 
+                      <p class="fst-italic"> - Posisi sebagai penjaga gawang.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SD ANTAR RW (FUTSAL) PUP [2015]
+                      <p class="fst-italic"> - Posisi sebagai penjaga gawang.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SMP ANTAR RT (FUTSAL) RW 029 [2016]
+                      <p class="fst-italic"> - Posisi sebagai penjaga gawang.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SMP ANTAR RW (FUTSAL) PUP [2017]
+                      <p class="fst-italic"> - Posisi sebagai penjaga gawang.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SMP ANTAR RT (FUTSAL) RW 029 [2018]
+                      <p class="fst-italic"> - Posisi sebagai penjaga gawang.</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold text-center">SD KALIABANG TENGAH 3</li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEPANITIAAN & ORGANISASI</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 4.1 [2012 - 2013] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - PKB (POLISI KARAKTER BANGSA) [2012 - 2013] 
+                      <p class="fst-italic">- Melakukan pendataan terhadap siswa/siswi melakukan pembuangan sampah sembarangan.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 5.1 [2013 - 2014] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEJUARAAN & PERLOMBAAN</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SD ANTAR SEKOLAH (FUTSAL) KABUPATEN/KOTA BEKASI [2013]
+                      <p class="fst-italic">- Posisi sebagai lini belakang</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SD ANTAR SEKOLAH (VOLLEY) KABUPATEN/KOTA BEKASI [2014]
+                      <p class="fst-italic">- Posisi sebagai smasher & blocker</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SD ANTAR SEKOLAH (KALIGRAFI) KABUPATEN BEKASI [2015]
+                      <p class="fst-italic">- Membuat kaligrafi surah An-Nasr 1-3 Ayat</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold text-center">SMP TAMAN HARAPAN 1</li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEPANITIAAN & ORGANISASI</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 8.8 [2016 - 2017] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - CALON KETUA OSIS [2016 - 2017] 
+                      <p class="fst-italic">- Tidak jadi, sebab menghilangkan dan mengundurkan diri.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 9.8 [2017 - 2018] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEJUARAAN & PERLOMBAAN</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEJUARAAN - RANGKING KELAS 1 s.d 3 [2015 - 2018]</p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - TINGKAT SMP ANTAR KELAS (CERDAS CERMAT MATEMATIKA) [2016]</p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEJUARAAN - TINGKAT SMP ANTAR KELAS RANGKING 1 (USBN) [2018]</p>
+                  </li>
+                  <li class="list-group-item fw-bold text-center">SMA TAMAN HARAPAN 1</li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEPANITIAAN & ORGANISASI</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 11.MIA 4 [2019 - 2020] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - STAFF MPK (MAJELIS PERMUSYAWARATAN KELAS) [2019 - 2020] 
+                      <p class="fst-italic">- Melakukan managerial team dan kerja sama kelompok atas perintah yang ditugaskan.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEPANITIAAN - SEKSI SPONSORSHIP (PENSI NARALOGY) [2019 - 2020] 
+                      <p class="fst-italic">- Melakukan managerial team dan kerja sama dengan client sesuai atas kesepakatan yang terjadi.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> KEPANITIAAN - STAFF LAPANGAN (PENSI NARALOGY) [2019 - 2020] 
+                      <p class="fst-italic">- Melakukan managerial team dan kerja sama kelompok atas perintah yang ditugaskan.</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - KETUA KELAS 12.MIA 4 [2020 - 2021] 
+                      <p class="fst-italic">- Melakukan managerial kondisi kelas serta pengimplementasian peraturan yang ada.</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEJUARAAN & PERLOMBAAN</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - ACCOUSTIC (SENI MUSIK BAHASA INGGRIS) [2019]</p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> PERLOMBAAN - ACCOUSTIC (SENI MUSIK DAERAH & POP) SMP 19, BEKASI [2019]</p>
+                  </li>
+                  <li class="list-group-item fw-bold text-center">UNIVERSITAS GUNADARMA</li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEPANITIAAN & ORGANISASI</li>
+                  <li class="list-group-item">
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - GOOGLE DEVELOPER STUDENT CLUBS GUNADARMA
+                      <p class="fst-italic">- Melakukan pembelajaran dunia perkembangan dunia IT</p>
+                    </p>
+                    <p class="fw-semibold"><i class="bi bi-geo-fill"></i> ORGANISASI - CYBER SECURITY GUNADARMA 
+                      <p class="fst-italic">- Melakukan pengembangan keamanan cyber security dengan kompleks</p>
+                    </p>
+                  </li>
+                  <li class="list-group-item fw-bold"><i class="bi bi-exclude"></i> KEJUARAAN & PERLOMBAAN</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#64636390"
+          fill-opacity="1"
+          d="M0,64L30,53.3C60,43,120,21,180,42.7C240,64,300,128,360,144C420,160,480,128,540,128C600,128,660,160,720,181.3C780,203,840,213,900,197.3C960,181,1020,139,1080,138.7C1140,139,1200,181,1260,170.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--SectionTambahan-->
+    <section class="sectionTambahan">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#64636390" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,106.7C672,117,768,203,864,245.3C960,288,1056,288,1152,256C1248,224,1344,160,1392,128L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3d3d3d" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,176C384,160,480,96,576,106.7C672,117,768,203,864,245.3C960,288,1056,288,1152,256C1248,224,1344,160,1392,128L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+
+    <!--Contact-->
+    <section id="contact">
+      <div class="container text-white" data-aos="zoom-in">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold"><i class="bi bi-phone"></i> CONTACT ME</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Thank You!</strong> Your message has been successfully sent <i class="bi bi-check-circle text-success"></i>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form" class="fw-semibold">
+              <div class="mb-3">
+                <label for="name" class="form-label"><i class="bi bi-file-person-fill"></i> NAME</label>
+                <input type="text" class="form-control border-4 border-black" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label"><i class="bi bi-envelope-at"></i> EMAIL</label>
+                <input type="email" class="form-control border-4 border-black" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label"><i class="bi bi-chat-left-dots"></i> MESSAGE</label>
+                <textarea class="form-control border-4 border-black" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark btn-Kirim"><i class="bi bi-send-check"></i> Send</button>
+              <button class="btn btn-primary d-none btn-Loading" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#000000"
+          fill-opacity="1"
+          d="M0,64L30,53.3C60,43,120,21,180,42.7C240,64,300,128,360,144C420,160,480,128,540,128C600,128,660,160,720,181.3C780,203,840,213,900,197.3C960,181,1020,139,1080,138.7C1140,139,1200,181,1260,170.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-white text-center pb-4">
+      <div class="container">
+        <div class="row fw-bold fs-5">
+          <div class="col-md-4">
+            <p><i class="bi bi-instagram"></i><a href="https://www.instagram.com/rizkyach_/" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"> rizkyach_</a></p>
+          </div>
+          <div class="col-md-4">
+            <p><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/achmadrizky/" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"> achmadrizky</a></p>
+          </div>
+          <div class="col-md-4">
+            <p><i class="bi bi-github"></i><a href="https://github.com/achmadrizky27" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"> achmadrizky27</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--JavaScript Bootstrap 5.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--JavaScript Animate On Scroll Library-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--JavaScript Connection To Google Sheet-->
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycby6Xh4tG62T-fj2xmr7RW40-GrbmDeQY8Fjlh123Jshup7T7Zv11YYoASyQD_lYEUdOTA/exec";
+      const form = document.forms["contact-form"];
+      const btnKirim = document.querySelector(".btn-Kirim");
+      const btnLoading = document.querySelector(".btn-Loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Ketika tombol submit diklik
+        // Tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            //Tampilkan "btn kirim", hilangkan "btn loading"
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //Tampilkan "my Alert"
+            myAlert.classList.toggle("d-none");
+            //Bersihkan input data
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
